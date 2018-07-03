@@ -1,5 +1,4 @@
 ﻿using NT.MedicusIntegration.Dll;
-using NT.MedicusIntegration.Dll.models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +11,6 @@ namespace IntegrationTest
     {
         static void Main(string[] args)
         {
-            MedicusIntegration integration = new MedicusIntegration();
             int status = 401;
             #region Add Patient
             PatientBody patientBody = new PatientBody()
@@ -21,10 +19,10 @@ namespace IntegrationTest
                      new Patient(){
                          patient_number ="12500",full_name="yousef dalati",gender="male",birthdate="715755600"
                         ,phone_number="",email="yousef@medicus.ai",branch_name ="Jeddah, Saudi Arabia",
-                         attributes =new List<NT.MedicusIntegration.Dll.models.Attribute>(){
-                              new NT.MedicusIntegration.Dll.models.Attribute(){ attribute= "weight",attribute_value="98",entered_value_date="1519563513",
+                         attributes =new List<NT.MedicusIntegration.Dll.Attribute>(){
+                              new NT.MedicusIntegration.Dll.Attribute(){ attribute= "weight",attribute_value="98",entered_value_date="1519563513",
                               },
-                               new NT.MedicusIntegration.Dll.models.Attribute(){ attribute= "weight",attribute_value="183",entered_value_date="1519563512",
+                               new NT.MedicusIntegration.Dll.Attribute(){ attribute= "weight",attribute_value="183",entered_value_date="1519563512",
                               }
                      }
                      }
@@ -32,7 +30,7 @@ namespace IntegrationTest
 
             };
 
-            status = integration.AddPatient(patientBody).Result.status;
+            status = PatientApi.AddPatient(patientBody).Result.status;
             #endregion
 
             #region Manage Order
@@ -42,7 +40,7 @@ namespace IntegrationTest
                      new Order(){ order_number=1240, order_status="pending", patient_number=12500 }
                  }
             };
-            status = integration.ManageOrder(orderBody).Result.status;
+            status = OrderApi.ManageOrder(orderBody).Result.status;
             #endregion
 
             #region Medical Report
@@ -74,7 +72,7 @@ namespace IntegrationTest
                         }
                    }
             };
-            status = integration.MedicalReport(medicalReportBody).Result.status;
+            status = ResultApi.MedicalReport(medicalReportBody).Result.status;
             #endregion
 
             #region Medical Report PDF
@@ -91,11 +89,8 @@ namespace IntegrationTest
                       }
                  }
             };
-            status = integration.MedicalReportPDF(medicalReportPdfBody).Result.status;
+            status = ResultApi.MedicalReportPDF(medicalReportPdfBody).Result.status;
             #endregion
-
-
-
         }
     }
 }
