@@ -1,0 +1,11 @@
+D:\Integration\NT.MedicusIntegration\IntegrationTest\obj\Debug\IntegrationTest.csprojResolveAssemblyReference.cache
+D:\Integration\NT.MedicusIntegration\IntegrationTest\obj\Debug\IntegrationTest.csproj.CoreCompileInputs.cache
+D:\Integration\NT.MedicusIntegration\IntegrationTest\bin\Debug\IntegrationTest.exe.config
+D:\Integration\NT.MedicusIntegration\IntegrationTest\bin\Debug\IntegrationTest.exe
+D:\Integration\NT.MedicusIntegration\IntegrationTest\bin\Debug\IntegrationTest.pdb
+D:\Integration\NT.MedicusIntegration\IntegrationTest\bin\Debug\NT.MedicusIntegration.Dll.dll
+D:\Integration\NT.MedicusIntegration\IntegrationTest\bin\Debug\Newtonsoft.Json.dll
+D:\Integration\NT.MedicusIntegration\IntegrationTest\bin\Debug\NT.MedicusIntegration.Dll.pdb
+D:\Integration\NT.MedicusIntegration\IntegrationTest\bin\Debug\Newtonsoft.Json.xml
+D:\Integration\NT.MedicusIntegration\IntegrationTest\obj\Debug\IntegrationTest.exe
+D:\Integration\NT.MedicusIntegration\IntegrationTest\obj\Debug\IntegrationTest.pdb
