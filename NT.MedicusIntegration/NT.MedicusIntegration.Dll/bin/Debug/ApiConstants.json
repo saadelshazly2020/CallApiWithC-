@@ -1,0 +1,16 @@
+{
+"credentials":{
+"grant_type":"password",
+"username":"al_borg",
+"password":"2PHg@mAw8FOAzJZkLAE2AyN!p-F_5#od",
+"client_id":"qM5nTQcM^KWFr2s1OhCaAwVlLdSg3vLY",
+"client_secret":"UHb!ue*gjxL_xz&^4yHDJpR5Qe5?7RbU"
+},
+"Urls":{
+  "GetTokenUrl":"http://104.155.18.156/aggregator/api/web/oauth2/token",
+  "AddPatientUrl":"http://104.155.18.156/aggregator/api/web/v1/patients/add",
+  "ManageOrderUrl":"http://104.155.18.156/aggregator/api/web/v1/manage-orders/manage",
+  "MedicalReportUrl":"http://104.155.18.156/aggregator/api/web/v1/medical-records/add",
+  "MedicalReportPDFUrl":"http://104.155.18.156/aggregator/api/web/v1/pdf/add"
+}
+}

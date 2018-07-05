@@ -1,0 +1,8 @@
+D:\Integration\NT.MedicusIntegration\NT.MedicusIntegration.Dll\bin\Debug\NT.MedicusIntegration.Dll.dll
+D:\Integration\NT.MedicusIntegration\NT.MedicusIntegration.Dll\bin\Debug\NT.MedicusIntegration.Dll.pdb
+D:\Integration\NT.MedicusIntegration\NT.MedicusIntegration.Dll\bin\Debug\Newtonsoft.Json.dll
+D:\Integration\NT.MedicusIntegration\NT.MedicusIntegration.Dll\bin\Debug\Newtonsoft.Json.xml
+D:\Integration\NT.MedicusIntegration\NT.MedicusIntegration.Dll\obj\Debug\NT.MedicusIntegration.Dll.csproj.CoreCompileInputs.cache
+D:\Integration\NT.MedicusIntegration\NT.MedicusIntegration.Dll\obj\Debug\NT.MedicusIntegration.Dll.dll
+D:\Integration\NT.MedicusIntegration\NT.MedicusIntegration.Dll\obj\Debug\NT.MedicusIntegration.Dll.pdb
+D:\Integration\NT.MedicusIntegration\NT.MedicusIntegration.Dll\obj\Debug\NT.MedicusIntegration.Dll.csprojResolveAssemblyReference.cache
